@@ -3,5 +3,13 @@
     <a class="c-navigation__item {% if page.url == '/' %}is-active{% endif %}" href="{{ "/" | prepend: site.baseurl }}">Home</a>
     <a class="c-navigation__item {% if page.url == '/articles/' %}is-active{% endif %}" href="{{ "/articles/" | prepend: site.baseurl }}">Articles</a>
     <a class="c-navigation__item {% if page.url == '/FAQ/' %}is-active{% endif %}" href="{{ "/FAQ/" | prepend: site.baseurl }}">FAQ</a>
+    <div class="dropdown">
+      <a class="c-navigation__item {% if url == 'http://india.linuxchix.org/' %}is-active{% endif %}" href="{{ "http://india.linuxchix.org/" | prepend: site.baseurl }}">
+      <span>Chapters</span>
+      <div class="dropdown-content">
+        <span>Delhi</span>
+      </div>
+    </div>  
+    </a>
   </div>
 </nav>
